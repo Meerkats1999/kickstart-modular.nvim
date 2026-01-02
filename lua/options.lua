@@ -1,5 +1,4 @@
--- [[ Setting options ]]
--- See `:help vim.o`
+-- [[ Setting options ]] See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
@@ -76,4 +75,12 @@ vim.g.netrw_liststyle = 3
 vim.g.netrw_browse_split = 0
 vim.g.netrw_winsize = 25
 
+vim.opt.termguicolors = true
+vim.cmd 'highlight Normal guibg=NONE ctermbg=NONE'
+vim.cmd 'highlight NormalNC guibg=NONE ctermbg=NONE'
+vim.cmd 'highlight EndOfBuffer guibg=NONE'
+vim.cmd 'highlight SignColumn guibg=NONE'
+vim.cmd 'highlight LineNr guibg=NONE'
+vim.cmd 'highlight Folded guibg=NONE'
+vim.cmd 'highlight VertSplit guibg=NONE'
 -- vim: ts=2 sts=2 sw=2 et
