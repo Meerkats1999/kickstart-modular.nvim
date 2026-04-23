@@ -93,6 +93,11 @@ vim.g.maplocalleader = ' '
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
+vim.opt.tabstop = 4 -- how many spaces a TAB counts for
+vim.opt.shiftwidth = 4 -- spaces used for auto-indent
+vim.opt.expandtab = true -- convert tabs to spaces
+vim.opt.smartindent = true
+
 -- [[ Setting options ]]
 require 'options'
 

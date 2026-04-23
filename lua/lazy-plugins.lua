@@ -37,7 +37,8 @@ require('lazy').setup({
 
   -- require 'kickstart.plugins.tokyonight',
   -- require 'kickstart.plugins.bamboo',
-  require 'kickstart.plugins.catppuccin',
+  -- require 'kickstart.plugins.catppuccin',
+  require 'kickstart.plugins.zenbones',
 
   require 'kickstart.plugins.todo-comments',
 
@@ -48,6 +49,8 @@ require('lazy').setup({
   require 'kickstart.plugins.neo-tree',
 
   require 'kickstart.plugins.copilot_chat',
+
+  -- require 'kickstart.plugins.neorg',
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
