@@ -38,7 +38,8 @@ require('lazy').setup({
   -- require 'kickstart.plugins.tokyonight',
   -- require 'kickstart.plugins.bamboo',
   -- require 'kickstart.plugins.catppuccin',
-  require 'kickstart.plugins.zenbones',
+  -- require 'kickstart.plugins.zenbones',
+  require 'kickstart.plugins.cyberdream',
 
   require 'kickstart.plugins.todo-comments',
 
